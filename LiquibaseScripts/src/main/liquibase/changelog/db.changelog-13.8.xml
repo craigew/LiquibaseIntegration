@@ -1,0 +1,116 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+    <changeSet id="8.0_1" author="cw">
+        <createTable tableName="person">
+            <column name="address" type="varchar(255)"/>
+        </createTable>
+
+        <rollback>
+            <dropTable tableName="person"></dropTable>
+        </rollback>
+    </changeSet>
+
+    <!--<changeSet id="8.0_2" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="Name" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="Name"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_3" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="Surname" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="Surname"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_4" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="Initials" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="Initials"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_5" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="HomeAddress" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="HomeAddress"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_6" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="WorkAddress" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="WorkAddress"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_7" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="PostalAddress" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="PostalAddress"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_8" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="Column1" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="Column1"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_9" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="Column2" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="Column2"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_10" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="Column3" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="Column3"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+    <!--<changeSet id="8.0_11" author="cw">-->
+        <!--<addColumn tableName="person">-->
+            <!--<column name="Column4" type="varchar(100)"></column>-->
+        <!--</addColumn>-->
+
+        <!--<rollback>-->
+            <!--<dropColumn tableName="person" columnName="Column4"></dropColumn>-->
+        <!--</rollback>-->
+    <!--</changeSet>-->
+
+
+</databaseChangeLog>
